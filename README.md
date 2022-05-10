@@ -31,14 +31,14 @@ A hosted version of this application is available at https://databii.herokuapp.c
 * python3.9 manage.py sqlmigrate news 0001
 * python3.9 manage.py migrate
 * python3.9 manage.py runserver 
-* Open localhost:5000
+* Open localhost:8000
 
 ### Testing the Application
 python3.9 manager.py tests
 
 ### Built With 
 * Python3.9
-* Flask
+* Django
 * Boostrap
 * HTML
 * CSS
