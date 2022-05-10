@@ -16,7 +16,7 @@ A hosted version of this application is available at https://databii.herokuapp.c
 * virtual environment
 * pip 
 ### Clone the Repo 
-* git clone https://github.com/Calebbii/Project-Awwards.git
+* git clone https://github.com/Calebbii/Dataparser.git
 * Initialize git and add the remote repository
 * git init
 * git remote add origin <your-repository-url>
