@@ -3,7 +3,7 @@ beautifulsoup4==4.11.1
 certifi==2021.10.8
 confusable-homoglyphs==3.2.0
 dj-database-url==0.5.0
-Django==4.0.4
+Django==4.0.3
 django-bootstrap-v5==1.0.7
 django-on-heroku==1.1.2
 django-registration-redux==2.9
