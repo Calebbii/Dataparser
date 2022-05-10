@@ -21,9 +21,8 @@ def create_student(request):
         create_student_form = CreateStudentForm(request.POST, request.FILES)
         if create_student_form.is_valid():
             student = create_student_form.save(commit=False)
-            student.admin = request.user.profile
             student.save()
-            return redirect('home')
+        return redirect('home')
     else:
         create_student_form = CreateStudentForm()
     return render(request, 'new_student.html', {'create_student_form': create_student_form})
@@ -43,7 +42,7 @@ def update_student(request, student_id):
 
 
 def delete_student(request,student_id):
-    student = student.objects.get(pk=student_id)
+    student = Student.objects.get(pk=student_id)
     if student:
         student.delete_student()
     return redirect('home')
