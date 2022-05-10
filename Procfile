@@ -1,0 +1,1 @@
+web: gunicorn dataparser.wsgi --log-file -
